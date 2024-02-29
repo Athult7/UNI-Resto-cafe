@@ -1,0 +1,42 @@
+.quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-number {
+    width: 50px;
+    text-align: center;
+  }
+  
+  button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #009325;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c68181;
+  }
+  
+  button:disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+  }
+  .cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .veg{
+    height: 10px;
+    width: 10px;
+  }
+  #dish{
+  width: 180px;
+  height:180px;
+  }
